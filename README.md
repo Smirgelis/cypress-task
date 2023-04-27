@@ -16,7 +16,7 @@ Roll under/over switch changes value
 Dragging slider updates values inside inputs
 Updating inputs makes other inputs update
 Updating Rolls count in Spray mode updates button text
-Intercept the bet list request (https://api-staging.csgoroll.com/graphql?operationName=DiceBets) and mock the response to have an empty list
+Intercept the bet list request and mock the response to have an empty list
 of bets.
 After that ensure that the list is not showing any bet.
 
